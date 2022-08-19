@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+
+<body>
+    <form action="">
+        digite um Valor
+        <input type="text" id="name" name="name">
+        <button type="" value="Enviar" onclick="mostrarDobro()">Mostrar o Dobro!!</button>
+    </form>
+    <p>Dobro do valor: </p><p id="dobro"></p>
+
+    <script>
+        function mostrarDobro() {
+            var input = document.querySelector("#name");
+            var numero = input.value;
+            console.log(numero);
+            document.getElementById('dobro') = numero
+        }
+    </script>
+</body>
+
+</html>
