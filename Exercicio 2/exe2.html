@@ -6,24 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form action="">
-        digite um Valor
-        <input type="text" id="name" name="name">
-        <button type="" value="Enviar" onclick="mostrarDobro()">Mostrar o Dobro!!</button>
-    </form>
-    <p>Dobro do valor: </p><p id="dobro"></p>
+    <div id="full">
 
-    <script>
-        function mostrarDobro() {
-            var input = document.querySelector("#name");
-            var numero = input.value;
-            console.log(numero);
-            document.getElementById('dobro') = numero
-        }
-    </script>
+        <header>
+            <h1>DOBRO DO VALOR</h1>
+        </header>
+
+        <form action="">
+            digite um Valor
+            <input type="text" id="numero" name="name">
+            <input type="submit" id="inputEnviar" value="Enviar">
+        </form>
+        <p>Dobro do valor: </p><span id="dobro"></span>
+    
+        <script>
+    
+            const inputEnviar = document.querySelector("#inputEnviar");
+    
+            inputEnviar.addEventListener("click",function(e) {
+                
+                e.preventDefault();
+    
+                const numero = document.querySelector("#numero");
+    
+                const value = numero.value;
+    
+                console.log(value)
+                document.getElementById("dobro").innerHTML = value*2
+    
+            })
+    
+        </script>
+    </div>
 </body>
 
 </html>

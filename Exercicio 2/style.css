@@ -1,0 +1,46 @@
+#full{
+    text-align: center;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    font-family: tahoma;
+    font-size: 20px;
+    height: 300px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+form{
+    
+    padding: 8px;
+}
+
+header{
+    background: burlywood;
+    color: blue;
+    padding: 0.1px;
+}
+
+input{
+    background-color: aqua;
+    border: none;
+    height: 25px;
+}
+
+body{
+    background-color: azure;
+}
+
+#inputEnviar{
+    background-color: rebeccapurple;
+    color: white;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    border: none;
+}
+
+#inputEnviar:hover{
+    background: white;
+    color: black;
+}
