@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="full">
+
+        <header>
+            <h1>DOBRO DO VALOR</h1>
+        </header>
+
+        
+            digite um Valor
+            <input type="text" id="numero"  name="input1">
+            <button id="inputEnviar" onclick="dobro()">Enviar</button>
+
+            <br><br>
+
+            Dobro do Valor
+            <input type="text" id="dobroValor" name="input2" value"">
+        
+
+        <script>
+            function dobro() {
+                const input1 = document.getElementById("numero").value;
+                input2 = input1*2
+                document.getElementById("dobroValor").value = input2
+            }
+        </script>
+    </div>
+</body>
+
+</html>
