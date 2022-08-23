@@ -1,0 +1,53 @@
+body{
+    background-color: burlywood;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.full{
+    background-color: red;
+    width: 36%;
+    padding: 10px;
+    height: 560px;
+}
+
+h1{
+    text-align: center;
+}
+
+fieldset{
+    height: 458px;
+}
+
+.input{
+    width: 200px;
+    left: 150px;
+    position: absolute;
+    background: goldenrod;
+    border: none;
+    height: 23px;
+}
+
+label{
+    font-size: 20px;
+}
+
+option, select{
+    width: 200px;
+    left: 150px;
+    position: absolute;
+    background: goldenrod;
+    border: none;
+    height: 30px;
+}
+
+button{
+    cursor: pointer;
+    height: 90px;
+    color: white;
+}
+
+button:hover{
+    background-color: darkcyan;
+}

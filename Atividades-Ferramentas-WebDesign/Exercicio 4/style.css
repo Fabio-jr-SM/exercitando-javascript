@@ -1,0 +1,42 @@
+body{
+    background-color: brown;
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#full{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+}
+
+h2{
+    padding: 20px;
+}
+
+input{
+    border: none;
+    height: 30px;
+    background-color: rgb(0, 255, 242);
+}
+
+input:hover{
+    background-color: blanchedalmond;
+}
+
+
+button{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    color: aqua;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(34, 26, 26);
+}
